@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    margin-top: .2rem;
+}
+.vip{
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+.vip span{
+    background-color: rgb(10,102,194);
+    color: white;
+}   
+.vip h2{
+    color: rgb(10,102,194);
+}
+@media only screen and(max-width:600px) {
+    .vip{
+         width: 100%;
+         display: block;
+    }  
+}
+ .sig a{
+    border-radius: 2rem;
+    text-decoration: none;
+    
+}
+.sig :hover{
+    background-color: thistle;
+    
+}
+@media only screen and(max-width:600px) {
+    .sig{
+         width: 100%;
+         display: block;
+         font-size: .2rem;
+    }  
+}
+
+.lid{
+    border: .1px solid rgb(235,235,235);
+    margin-top: 2rem;
+    width: 21rem;
+    height: 2.5rem; 
+    padding-top: .5rem; 
+    border-radius: .3rem;
+}
+.lid a{
+    text-decoration: none;
+    color: black;
+}
+.lid i{
+    padding-left: 13.3rem;
+}
+
+.lid:hover{
+    width: 21rem;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+.lid1{
+    border: .1px solid rgb(235,235,235);
+    margin-top: 2rem;
+    width: 21rem;
+    height: 2.5rem; 
+    padding-top: .5rem; 
+    border-radius: .3rem;
+}
+.lid1 a{
+    text-decoration: none;
+    color: black;
+}
+.lid1 i{
+    padding-left: 10rem;
+}
+
+.lid1:hover{
+    width: 21rem;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+.lid2{
+    border: .1px solid rgb(235,235,235);
+    margin-top: 2rem;
+    width: 21rem;
+    height: 2.5rem; 
+    padding-top: .5rem; 
+    border-radius: .3rem;
+}
+.lid2 a{
+    text-decoration: none;
+    color: black;
+}
+.lid2 i{
+    padding-left: 13rem;
+}
+
+.lid2:hover{
+    width: 21rem;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.vip2{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%; 
+    
+}
+@media only screen and(max-width:600px) {
+    .vip2{
+         width: 100%;
+         display: block;
+
+    }  
+}
+.vip3{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(250,249,247);
+    height: 300px;
+}
+.log{
+    margin-top: 5rem;
+}
+.log a{
+    text-decoration: none;
+    
+}
+.log1 a:hover{
+    background-color: red);
+}
